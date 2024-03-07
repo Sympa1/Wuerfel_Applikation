@@ -6,7 +6,6 @@ from PIL import Image, ImageTk
 
 main_window = tkinter.Tk()
 main_window.title("Würfel App")
-main_window.geometry("600x300")
 
 würfel_typen=["W4", "W6", "W8", "W10", "W12", "W20", "W100"]
 
