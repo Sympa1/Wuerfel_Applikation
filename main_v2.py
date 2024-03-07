@@ -13,7 +13,7 @@ würfel_typen=["W4", "W6", "W8", "W10", "W12", "W20", "W100"]
 würfel_auswahl_label_frame = tkinter.LabelFrame(main_window, text="Wähle deine/n Würfel")
 würfel_auswahl_label_frame.grid(row=0, column=0, padx="25", pady="80")
 
-img = ImageTk.PhotoImage(Image.open(r"C:\Users\tsiegel\OneDrive - IBB Institut für Berufliche Bildung AG - Viona\Dokumente\Eigene_Python_Projekte\Wuerfel_App\else.png").resize((50,50)))
+img = ImageTk.PhotoImage(Image.open("else.png").resize((50,50)))
 
 def update_image(*args): # die Funktion wird immer aufgerufen, wenn sich der Wert, der Combobox ändert. das "*args" ist ein Plathhalter für beliebiige Argumente die wir theoretisch übergeben können. Das brauchen wir für die "trace" Methode
     global img # Definiert innerhalb der Funktion eine global abrufbare Variable
